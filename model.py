@@ -46,8 +46,8 @@ class Brand(db.Model):
     def __repr__(self):
         """Show info about Brand object"""
 
-        return "<Brand id=%d name=%s founded=%d headquarters=%s discontinued %d>" 
-        % (self.id, self.name, self.founded, self.headquarters self.discontinued)
+        return "<Brand id=%d name=%s founded=%d headquarters=%s discontinued %d>" % (
+            self.id, self.name, self.founded, self.headquarters, self.discontinued)
 
 # End Part 1
 ##############################################################################
